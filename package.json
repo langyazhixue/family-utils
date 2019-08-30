@@ -1,0 +1,46 @@
+{
+  "name": "@lyx/lyx-util.js",
+  "version": "1.0.2",
+  "description": "common use js tool lib",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "tools",
+    "util",
+    "utility",
+    "library",
+    "lodash"
+  ],
+  "license": "MIT",
+  "author": "langyazhixue<1039367625@qq.com>(https://www.jiaxiaoxiao.club)",
+  "homepage": "https://github.com/langyazhixue/lyx-utils.js",
+  "bugs": {
+    "url": "https://github.com/langyazhixue/lyx-utils.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langyazhixue/lyx-utils.js.git"
+  },
+  "main": "lyx-util.cjs.js",
+  "module": "lyx-util.esm.js",
+  "browser": "lyx-util.js",
+  "dependencies": {
+    "@zollty/zollty-util": "^1.0.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^6.2.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-filesize": "^6.2.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
